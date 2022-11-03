@@ -1,0 +1,17 @@
+@import "../../../GlobalAssets/styles/constants.scss";
+
+.flashcards-page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+
+  .flashcard-list-container {
+    margin-top: 10%;
+    margin-bottom: 3%;
+  }
+}
+
+html {
+  overflow-x: hidden;
+}
